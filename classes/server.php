@@ -24,7 +24,7 @@
         // => all'interno della classe è definito almeno un metodo
         public function dettagliMovie()
         {
-            return $this->titolo . " " . $this->regia;
+            return $this->titolo . " " ."<br>" . $this->regia;
         }
 
 
